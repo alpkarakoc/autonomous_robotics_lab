@@ -39,3 +39,9 @@ Before committing, verify:
 2. Python files compile successfully.
 3. build/, install/, and log/ are not tracked.
 4. The commit only contains source and documentation files.
+
+## Phase 4A Launch File Hardening
+
+This phase adds a minimal ROS 2 launch file for the existing maintenance_status_node.
+
+The goal is to verify a slightly more realistic ROS 2 package structure while avoiding Autoware runtime behavior, sensors, perception, planning, control, or real vehicle behavior.

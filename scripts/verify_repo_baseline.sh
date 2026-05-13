@@ -29,7 +29,9 @@ test -f src/autonomous_robotics_lab/setup.py
 test -f src/autonomous_robotics_lab/setup.cfg
 test -f src/autonomous_robotics_lab/resource/autonomous_robotics_lab
 test -f src/autonomous_robotics_lab/autonomous_robotics_lab/__init__.py
-test -f src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py
+test -f src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py \
+  src/autonomous_robotics_lab/launch/maintenance_status.launch.py
+test -f src/autonomous_robotics_lab/launch/maintenance_status.launch.py
 test -f docker/ros2/Dockerfile
 test -f scripts/verify_ros2_docker_build.sh
 
@@ -40,7 +42,8 @@ echo "=== Python syntax check ==="
 python3 -m py_compile \
   src/autonomous_robotics_lab/setup.py \
   src/autonomous_robotics_lab/autonomous_robotics_lab/__init__.py \
-  src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py
+  src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py \
+  src/autonomous_robotics_lab/launch/maintenance_status.launch.py
 
 echo "Python syntax: OK"
 

@@ -21,8 +21,13 @@ docker build \
   .
 
 echo
-echo "=== Docker run ==="
+echo "=== Docker run: ros2 run ==="
 docker run --rm "${IMAGE_NAME}"
+
+echo
+echo "=== Docker run: ros2 launch ==="
+docker run --rm "${IMAGE_NAME}" bash -lc \
+  "source /opt/ros/jazzy/setup.bash && source /workspace/install/setup.bash && ros2 launch autonomous_robotics_lab maintenance_status.launch.py"
 
 echo
 echo "=== Generated artifact tracking check ==="

@@ -78,3 +78,15 @@ Observed result:
 - Final repository status was clean.
 
 This confirms that the minimal ROS 2 package can be built and run in the planned Docker-based ROS 2 environment.
+
+## Launch Verification
+
+Phase 4A extends Docker verification to check both direct node execution and launch-file execution.
+
+The verification script now runs:
+
+1. ros2 run autonomous_robotics_lab maintenance_status_node
+2. ros2 launch autonomous_robotics_lab maintenance_status.launch.py
+
+This confirms that the package entry point and installed launch file both work inside the Docker-based ROS 2 environment.
+

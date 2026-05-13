@@ -127,3 +127,15 @@ The Docker verification CI decision is documented in docs/docker_ci_decision_rec
 
 The current decision is not to add Docker ROS 2 build/run verification to GitHub Actions yet. The lightweight baseline verification remains in CI, while Docker ROS 2 build/run verification remains a manual/local evidence step until the ROS 2 package becomes more complex.
 
+## Phase 4A Launch File Hardening Update
+
+Phase 4A adds a minimal ROS 2 launch file for maintenance_status_node and keeps the package scope limited to ROS 2 package structure hardening.
+
+This phase does not introduce Autoware runtime behavior, sensors, perception, planning, control, or real vehicle behavior.
+
+## Phase 4A Launch Verification Update
+
+Phase 4A extends the Docker verification path to include ros2 launch execution for maintenance_status.launch.py.
+
+This confirms that the minimal package can be executed both through ros2 run and through a ROS 2 launch file.
+
