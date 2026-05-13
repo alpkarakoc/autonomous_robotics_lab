@@ -48,3 +48,11 @@ This script checks:
 4. Generated ROS 2 artifact folders are not tracked by Git.
 5. Current Git status is shown for review.
 
+## Continuous Integration Verification
+
+The repository includes a GitHub Actions workflow:
+
+.github/workflows/verify-baseline.yml
+
+The workflow runs on push to main and on pull requests. It executes the repository baseline verification script to confirm that the documented project structure, ROS 2 package skeleton, Python syntax, and generated artifact rules remain valid.
+
