@@ -78,4 +78,3 @@ Observed result:
 - Final repository status was clean.
 
 This confirms that the minimal ROS 2 package can be built and run in the planned Docker-based ROS 2 environment.
-

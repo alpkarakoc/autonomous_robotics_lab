@@ -120,4 +120,3 @@ Confirmed evidence:
 - No generated build/, install/, or log/ artifacts were tracked by Git.
 
 Phase 3D is now verified for the minimal ROS 2 package path.
-
