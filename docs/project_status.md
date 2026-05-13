@@ -161,3 +161,19 @@ Phase 4B adds a minimal ROS 2 parameter configuration file for maintenance_statu
 
 The launch file now loads config/maintenance_status.yaml so the node can read a status_message parameter while keeping the behavior intentionally minimal.
 
+## Phase 4B Verification Evidence Update
+
+The minimal ROS 2 parameter/config hardening path was verified successfully.
+
+Confirmed evidence:
+
+- config/maintenance_status.yaml is installed by setup.py.
+- maintenance_status.launch.py loads the config file through FindPackageShare and PathJoinSubstitution.
+- maintenance_status_node declares and reads the status_message parameter.
+- Docker-based colcon build succeeded.
+- ros2 run executed successfully.
+- ros2 launch executed successfully with the configured launch path.
+- No generated build/, install/, or log/ artifacts were tracked by Git.
+
+Phase 4B is now verified for the minimal ROS 2 parameter/config path.
+
