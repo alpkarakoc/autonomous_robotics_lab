@@ -106,3 +106,18 @@ The minimal Docker-based ROS 2 build/run verification path is documented in docs
 
 The verification script is scripts/verify_ros2_docker_build.sh and the Dockerfile is docker/ros2/Dockerfile. This phase is limited to building and running the minimal autonomous_robotics_lab package inside a ROS 2 Docker container.
 
+## Phase 3D Verification Evidence Update
+
+The minimal Docker-based ROS 2 build/run verification completed successfully.
+
+Confirmed evidence:
+
+- Docker daemon was available.
+- Docker image build succeeded.
+- colcon build succeeded inside the ROS 2 Jazzy container.
+- ros2 run autonomous_robotics_lab maintenance_status_node executed successfully.
+- The node logged that the package is available.
+- No generated build/, install/, or log/ artifacts were tracked by Git.
+
+Phase 3D is now verified for the minimal ROS 2 package path.
+

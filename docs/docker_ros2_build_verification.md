@@ -61,3 +61,21 @@ This phase does not approve:
 - control modules
 - real vehicle deployment
 - safety-certified autonomous driving behavior
+
+## Observed Verification Evidence
+
+The Docker-based ROS 2 build/run verification was executed successfully on the macOS host after Docker Desktop was started.
+
+Observed result:
+
+- Docker daemon became available.
+- Docker image build completed successfully.
+- The Docker build used docker/ros2/Dockerfile.
+- colcon build succeeded inside the ROS 2 Jazzy container.
+- docker run executed the package entry point.
+- The node logged that the autonomous_robotics_lab package is available.
+- Generated ROS 2 artifact tracking check passed.
+- Final repository status was clean.
+
+This confirms that the minimal ROS 2 package can be built and run in the planned Docker-based ROS 2 environment.
+
