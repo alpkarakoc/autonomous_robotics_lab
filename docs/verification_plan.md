@@ -56,3 +56,7 @@ The repository includes a GitHub Actions workflow:
 
 The workflow runs on push to main and on pull requests. It executes the repository baseline verification script to confirm that the documented project structure, ROS 2 package skeleton, Python syntax, and generated artifact rules remain valid.
 
+## CI Runtime Maintenance Note
+
+The baseline verification workflow uses actions/checkout@v5 so the checkout step runs on the newer Node.js runtime supported by GitHub Actions. This keeps the CI baseline aligned with platform maintenance requirements.
+
