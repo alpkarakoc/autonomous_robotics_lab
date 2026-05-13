@@ -34,6 +34,7 @@ The repository is acceptable when:
 7. docs/setup_guide.md exists.
 8. docs/traceability_matrix.md exists.
 9. docs/project_status.md exists.
+10. docs/ros2_build_run_plan.md exists.
 
 ## Automated Repository Baseline Verification
 

@@ -81,3 +81,10 @@ The repository does not currently approve:
 The next rational step is Phase 3A: define a controlled ROS 2 build and run verification plan.
 
 Phase 3A should not immediately add complex Autoware behavior. It should first define how the minimal ROS 2 package will be built and checked in a proper ROS 2 environment.
+
+## Phase 3A Planning Update
+
+A controlled ROS 2 build and run verification plan is documented in docs/ros2_build_run_plan.md.
+
+This plan defines the expected environment, build command, run command, acceptance criteria, and non-goals before any complex Autoware behavior is introduced.
+
