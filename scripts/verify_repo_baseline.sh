@@ -18,6 +18,7 @@ test -f docs/ros2_build_run_plan.md
 test -f docs/ros2_environment_audit.md
 test -f docs/docker_ros2_environment_plan.md
 test -f docs/docker_ros2_build_verification.md
+test -f docs/docker_ci_decision_record.md
 
 echo "Documentation files: OK"
 

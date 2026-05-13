@@ -120,3 +120,10 @@ Confirmed evidence:
 - No generated build/, install/, or log/ artifacts were tracked by Git.
 
 Phase 3D is now verified for the minimal ROS 2 package path.
+
+## Phase 3E Docker CI Decision Update
+
+The Docker verification CI decision is documented in docs/docker_ci_decision_record.md.
+
+The current decision is not to add Docker ROS 2 build/run verification to GitHub Actions yet. The lightweight baseline verification remains in CI, while Docker ROS 2 build/run verification remains a manual/local evidence step until the ROS 2 package becomes more complex.
+
