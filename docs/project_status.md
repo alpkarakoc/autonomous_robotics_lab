@@ -177,3 +177,9 @@ Confirmed evidence:
 
 Phase 4B is now verified for the minimal ROS 2 parameter/config path.
 
+## Phase 4C README Usage Documentation Update
+
+Phase 4C documents the current package usage path in README.md.
+
+The README now explains the minimal ROS 2 package, config file, launch file, local baseline verification script, Docker ROS 2 verification script, generated artifact rules, and current non-goals.
+
