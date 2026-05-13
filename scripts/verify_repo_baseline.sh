@@ -17,6 +17,7 @@ test -f docs/project_status.md
 test -f docs/ros2_build_run_plan.md
 test -f docs/ros2_environment_audit.md
 test -f docs/docker_ros2_environment_plan.md
+test -f docs/docker_ros2_build_verification.md
 
 echo "Documentation files: OK"
 
@@ -28,6 +29,8 @@ test -f src/autonomous_robotics_lab/setup.cfg
 test -f src/autonomous_robotics_lab/resource/autonomous_robotics_lab
 test -f src/autonomous_robotics_lab/autonomous_robotics_lab/__init__.py
 test -f src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py
+test -f docker/ros2/Dockerfile
+test -f scripts/verify_ros2_docker_build.sh
 
 echo "ROS 2 package skeleton files: OK"
 

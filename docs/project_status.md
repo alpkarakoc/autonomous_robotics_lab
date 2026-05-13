@@ -100,3 +100,9 @@ The Docker-based ROS 2 environment plan is documented in docs/docker_ros2_enviro
 
 The current decision is to treat macOS as the source-control environment and Docker as the ROS 2 build/run verification environment. The planned initial image is ros:jazzy-ros-base for the minimal package verification path.
 
+## Phase 3D Docker ROS 2 Build Verification Update
+
+The minimal Docker-based ROS 2 build/run verification path is documented in docs/docker_ros2_build_verification.md.
+
+The verification script is scripts/verify_ros2_docker_build.sh and the Dockerfile is docker/ros2/Dockerfile. This phase is limited to building and running the minimal autonomous_robotics_lab package inside a ROS 2 Docker container.
+
