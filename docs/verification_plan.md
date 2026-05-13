@@ -33,6 +33,7 @@ The repository is acceptable when:
 6. docs/maintenance_plan.md exists.
 7. docs/setup_guide.md exists.
 8. docs/traceability_matrix.md exists.
+9. docs/project_status.md exists.
 
 ## Automated Repository Baseline Verification
 
