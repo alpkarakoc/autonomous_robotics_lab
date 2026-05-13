@@ -17,3 +17,21 @@ The purpose of this project is to demonstrate software product maintenance, vers
 - Real vehicle deployment
 - Safety-certified autonomous driving
 - Production-grade autonomous driving stack
+
+## Project Documentation
+
+- docs/requirements.md
+- docs/quality_attributes.md
+- docs/traceability_matrix.md
+- docs/verification_plan.md
+- docs/maintenance_plan.md
+- docs/setup_guide.md
+- docs/ros2_package_plan.md
+- docs/project_status.md
+
+## Verification
+
+Run the repository baseline verification script from the repository root:
+
+./scripts/verify_repo_baseline.sh
+
