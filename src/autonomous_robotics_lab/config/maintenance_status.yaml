@@ -1,0 +1,3 @@
+maintenance_status_node:
+  ros__parameters:
+    status_message: "autonomous_robotics_lab package is available."

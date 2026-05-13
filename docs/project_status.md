@@ -155,3 +155,9 @@ Confirmed evidence:
 
 Phase 4A is now verified for the minimal ROS 2 launch-file path.
 
+## Phase 4B Parameter and Config Hardening Update
+
+Phase 4B adds a minimal ROS 2 parameter configuration file for maintenance_status_node.
+
+The launch file now loads config/maintenance_status.yaml so the node can read a status_message parameter while keeping the behavior intentionally minimal.
+

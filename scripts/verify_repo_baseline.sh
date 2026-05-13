@@ -31,6 +31,7 @@ test -f src/autonomous_robotics_lab/resource/autonomous_robotics_lab
 test -f src/autonomous_robotics_lab/autonomous_robotics_lab/__init__.py
 test -f src/autonomous_robotics_lab/autonomous_robotics_lab/maintenance_status_node.py
 test -f src/autonomous_robotics_lab/launch/maintenance_status.launch.py
+test -f src/autonomous_robotics_lab/config/maintenance_status.yaml
 test -f docker/ros2/Dockerfile
 test -f scripts/verify_ros2_docker_build.sh
 

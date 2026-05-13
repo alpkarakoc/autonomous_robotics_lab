@@ -45,3 +45,10 @@ Before committing, verify:
 This phase adds a minimal ROS 2 launch file for the existing maintenance_status_node.
 
 The goal is to verify a slightly more realistic ROS 2 package structure while avoiding Autoware runtime behavior, sensors, perception, planning, control, or real vehicle behavior.
+
+## Phase 4B Parameter and Config Hardening
+
+This phase adds a minimal ROS 2 parameter configuration file for maintenance_status_node.
+
+The goal is to verify that the package can install and use a config file through the launch path while avoiding Autoware runtime behavior, sensors, perception, planning, control, or real vehicle behavior.
+

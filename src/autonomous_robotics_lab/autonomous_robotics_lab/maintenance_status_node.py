@@ -13,7 +13,12 @@ class MaintenanceStatusNode(Node):
 
     def __init__(self) -> None:
         super().__init__("maintenance_status_node")
-        self.get_logger().info("autonomous_robotics_lab package is available.")
+        self.declare_parameter(
+            "status_message",
+            "autonomous_robotics_lab package is available.",
+        )
+        status_message = self.get_parameter("status_message").value
+        self.get_logger().info(str(status_message))
 
 
 def main(args=None) -> None:
