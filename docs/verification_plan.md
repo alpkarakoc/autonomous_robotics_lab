@@ -33,3 +33,18 @@ The repository is acceptable when:
 6. docs/maintenance_plan.md exists.
 7. docs/setup_guide.md exists.
 8. docs/traceability_matrix.md exists.
+
+## Automated Repository Baseline Verification
+
+The repository includes a lightweight verification script:
+
+scripts/verify_repo_baseline.sh
+
+This script checks:
+
+1. Required documentation files exist.
+2. Required ROS 2 package skeleton files exist.
+3. Python source files compile successfully.
+4. Generated ROS 2 artifact folders are not tracked by Git.
+5. Current Git status is shown for review.
+
