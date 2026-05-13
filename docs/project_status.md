@@ -88,3 +88,9 @@ A controlled ROS 2 build and run verification plan is documented in docs/ros2_bu
 
 This plan defines the expected environment, build command, run command, acceptance criteria, and non-goals before any complex Autoware behavior is introduced.
 
+## Phase 3B Environment Audit Update
+
+The ROS 2 environment audit is documented in docs/ros2_environment_audit.md.
+
+The audit found that ros2 and colcon are not available on the macOS host. Docker is available, so future ROS 2 build/run verification should use a controlled Docker-based Ubuntu/ROS 2 environment.
+
