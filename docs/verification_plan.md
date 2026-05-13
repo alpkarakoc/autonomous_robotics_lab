@@ -36,6 +36,7 @@ The repository is acceptable when:
 9. docs/project_status.md exists.
 10. docs/ros2_build_run_plan.md exists.
 11. docs/ros2_environment_audit.md exists.
+12. docs/docker_ros2_environment_plan.md exists.
 
 ## Automated Repository Baseline Verification
 

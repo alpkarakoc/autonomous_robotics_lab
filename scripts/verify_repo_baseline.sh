@@ -16,6 +16,7 @@ test -f docs/ros2_package_plan.md
 test -f docs/project_status.md
 test -f docs/ros2_build_run_plan.md
 test -f docs/ros2_environment_audit.md
+test -f docs/docker_ros2_environment_plan.md
 
 echo "Documentation files: OK"
 

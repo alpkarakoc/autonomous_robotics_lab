@@ -94,3 +94,9 @@ The ROS 2 environment audit is documented in docs/ros2_environment_audit.md.
 
 The audit found that ros2 and colcon are not available on the macOS host. Docker is available, so future ROS 2 build/run verification should use a controlled Docker-based Ubuntu/ROS 2 environment.
 
+## Phase 3C Docker ROS 2 Environment Planning Update
+
+The Docker-based ROS 2 environment plan is documented in docs/docker_ros2_environment_plan.md.
+
+The current decision is to treat macOS as the source-control environment and Docker as the ROS 2 build/run verification environment. The planned initial image is ros:jazzy-ros-base for the minimal package verification path.
+
