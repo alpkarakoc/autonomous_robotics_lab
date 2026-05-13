@@ -14,6 +14,7 @@ test -f docs/traceability_matrix.md
 test -f docs/verification_plan.md
 test -f docs/ros2_package_plan.md
 test -f docs/project_status.md
+test -f docs/ros2_build_run_plan.md
 
 echo "Documentation files: OK"
 
